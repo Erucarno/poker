@@ -1,7 +1,6 @@
 # poker
 
-Celem projektu było zbudowanie sieciowej gry poker. Przy pisaniu gry głównie opierano się na materiałach z
-laboratorium. Serwer odgrywa role krupiera. Po rozpoczęciu gry tasuje karty, a następnie rozdaje je każdemu z
+Celem projektu było zbudowanie sieciowej gry poker. Serwer odgrywa role krupiera. Po rozpoczęciu gry tasuje karty, a następnie rozdaje je każdemu z
 graczy. Po rozdaniu kart graczom, wystawia karty na stół, a na koniec sprawdza, który z graczy wygrał. Serwer
 bazuje na protokole TCP oraz zdecydowano, że będzie opierał się na adresach z rodziny IPv6. Do zwielokrotnienia
 wejścia/wyjścia wykorzystano funkcję poll().
